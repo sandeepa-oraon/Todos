@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+
+.read-the-docs {
+  color: #888;
+}
+
+.d-none{
+  display: none;
+}
+
+.todos{
+  width: 500px;
+}
+.add{
+  display: flex;
+  align-items: center;
+}
+.add-btn{
+  height: 40px;
+  width:  40px;
+  cursor: pointer;
+  border: 2px solid lightgray;
+  background-color: black;
+}
+.input{
+  width: 98%;
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  
+}
+.input:focus{
+  outline: none;
+}
+
+.task-card{
+  /* border: 1px solid lightgray; */
+}
+
+.card{
+  border: 1px solid lightgray;
+  margin-top: 10px;
+  border-radius: 12px;
+  padding: 10px;
+  height: 30px;
+  /* width: 80%; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn{
+  margin-top: 12px;
+  width: 99%;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid black;
+  font-size: x-large;
+}
+
+
+.delete-btn{
+  padding-top: 4px;
+  background-color: #060606;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+}
+.delete-btn:hover{
+  border: 1px solid black;
+}
+.bi:hover{
+  color: red;
+}
